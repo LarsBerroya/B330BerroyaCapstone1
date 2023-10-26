@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Portfolio</title>
+        <!-- Bootstrap -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+        
+        <!-- Google Font -->
+        <style>
+          @import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@1,800&family=Open+Sans:ital,wght@0,300;0,400;0,600;1,500&family=Playpen+Sans:wght@400;700&family=Poppins&family=Roboto:wght@400;700&family=Tilt+Neon&display=swap');
+        </style>
+
+        <!-- CSS -->
+        <link rel="stylesheet" href="./index.css">
+
+        <!-- Media Query -->
+        <link rel="stylesheet" href="./mediaqueries.css">
+    </head>
+
+
+    <body>
+        <!-- navbar -->
+        <nav class="navbar navbar-expand-lg mt-4">
+            <div class="container-fluid">
+              <a class="navbar-brand ms-5" href="#landing">Lars Ulrich</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav  ms-auto me-5">
+                  <li>
+                    <a class="nav-link" href="#landing">Home</a>
+                  </li>
+                  <li>
+                    <a class="nav-link" href="#project">Project</a>
+                  </li>
+                  <li>
+                    <a class="nav-link" href="#tools">Tools</a>
+                  </li>
+                  <li>
+                    <a class="nav-link" href="#contact">Contact</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+
+
+          <main>
+            <!-- Landing -->
+            <section id="landing">
+              <div class="landingPicContainer">
+                  <img class="dp" src="./assets/larsSquare.png" alt="lars profile">
+              </div>
+              <div class="landingText">
+                  <p class="p1">Hello, Im </p>
+                  <h1 class="title">Lars Ulrich</h1>
+                  <p class="p2">Full Stack Web Developer</p>
+                  <div class="landingBtn">
+                      <button class="btn1" onclick="window.open('./assets/LarsCV.pdf')">
+                          Download CV
+                      </button>
+                      <button class="btn2" onclick="location.href ='#contact'">
+                          Contact Info
+                      </button>
+                  </div>
+                  <div id="socialContainer">
+                      <img src="./assets/Instagramlogo.png" class="iconInstagram" alt="Instagram Profile" onclick="location.href='https://www.instagram.com/franklin_4ce/'">
+                      <img src="./assets/githublogo.png" class="iconGithub" alt="Github Profile" onclick="location.href='https://github.com'">
+                  </div>
+              </div>
+             </section>
+
+             <!-- Project -->
+              <section id="project">
+              <p class="p1">Browse my recent</p>
+              <h1 class="title">Projects</h1>
+              <div class="projectDetailsContainer">
+                <div class="projectContainer">
+                  <div class="detailsContainer colorContainer">
+                    <div class="articleContianer">
+                      <img src="./assets/marble3.webp" alt="Project 1" class="projectImg">
+                    </div>
+                    <h2 class="SubTitle projectTitle">Project One</h2>
+                    <div class="btnContainer">
+                      <button class="btn2 projectBtn" onclick="window.open('https://github.com')">
+                        Github
+                      </button>
+                      <button class="btn2 projectBtn" onclick="window.open('https://github.com')">
+                        Live Demo
+                      </button>
+                    </div>
+                  </div>
+                  
+                  <div class="detailsContainer colorContainer">
+                    <div class="articleContianer">
+                      <img src="./assets/marble2.webp" alt="Project 2" class="projectImg">
+                    </div>
+                    <h2 class="SubTitle projectTitle">Project Two</h2>
+                    <div class="btnContainer">
+                      <button class="btn2 projectBtn" onclick="window.open('https://github.com')">
+                        Github
+                      </button>
+                      <button class="btn2 projectBtn" onclick="window.open('https://github.com')">
+                        Live Demo
+                      </button>
+                    </div>
+                  </div>
+
+                  <div class="detailsContainer colorContainer">
+                    <div class="articleContianer">
+                      <img src="./assets/marble.jpg" alt="Project 3" class="projectImg">
+                    </div>
+                    <h2 class="SubTitle projectTitle">Project Three</h2>
+                    <div class="btnContainer">
+                      <button class="btn2 projectBtn" onclick="window.open('https://github.com')">
+                        Github
+                      </button>
+                      <button class="btn2 projectBtn" onclick="window.open('https://github.com')">
+                        Live Demo
+                      </button>
+                    </div>
+                  </div>
+                </div>    
+              </div>
+            </section>
+
+            <!-- Tools -->
+            <section id="tools">
+              <p class="p1">Explore my</p>
+              <h1 class="title">Tools</h1>
+              <div class="projectDetailsContainer">
+                <div class="projectContainer">
+                  <div class="detailsContainer">
+                    <h2 class="SubTitle">Frontend Development</h2>
+                    <div class="articleContainer">
+                      <article>
+                        <img src="./assets/checkmark.png" alt="Check Mark" class="icon">
+                        <div>
+                          <h3>HTML</h3>
+                          <p>Experinced</p>
+                        </div>
+                      </article>
+
+                      <article>
+                        <img src="./assets/checkmark.png" alt="Check Mark" class="icon">
+                        <div>
+                          <h3>JavaScript</h3>
+                          <p>Basic</p>
+                        </div>
+                      </article>
+                          
+                      <article>
+                        <img src="./assets/checkmark.png" alt="Check Mark" class="icon">
+                        <div>
+                          <h3>CSS</h3>
+                          <p>Experinced</p>
+                        </div>
+                      </article>
+                    </div>
+                  </div>
+
+                  <div class="detailsContainer">
+                    <h2 class="SubTitle">Backend Development</h2>
+                    <div class="articleContainer">
+                      <article>
+                        <img src="./assets/checkmark.png" alt="Check Mark" class="icon">
+                        <div>
+                          <h3>Node JS</h3>
+                          <p>Basic</p>
+                        </div>
+                      </article>
+
+                      <article>
+                        <img src="./assets/checkmark.png" alt="Check Mark" class="icon">
+                        <div>
+                          <h3>MongoDB</h3>
+                          <p>Basic</p>
+                        </div>
+                      </article>
+
+                      <article>
+                        <img src="./assets/checkmark.png" alt="Check Mark" class="icon">
+                        <div>
+                          <h3>Git</h3>
+                          <p>Basic</p>
+                        </div>
+                      </article>
+
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </section>
+
+            <section id="contact">
+              <p class="p1">Get in Touch</p>
+              <h1 class="title"> Contact Me</h1>
+
+              <form class="contactForm" action="#">
+                <label for="email"></label><br>
+                <input placeholder="Enter your Email here" type="text" id="name">
+                <label for="message">Message</label>
+                <textarea type="text" id="message"> </textarea>
+                <input class="submitBtn btn1" type="submit" value="Submit">
+              </form> 
+
+
+            <div class="contactInfoUpper">
+              <div class="contactInfoContainer">
+                <img src="./assets/email.png" alt="Email" class="icon contactIcon">
+                  <p><a href="mailto:ulrichberroya30@gmail.com">ulrichberroya30@gmail.com</a></p>
+              </div>
+
+              <div class="contactInfoContainer">
+                <img src="./assets/email.png" alt="LinkedIn" class="icon contactIcon">
+                <p><a href="https://www.linkedin.com/">LinkedIn</a></p>
+              </div>
+
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer>
+          <p>Copyright &#169; 2023 Lars Ulrich. All Rights Reserved</p>
+        </footer>
+
+
+      </main>
+        <!-- bootstrap -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    </body>
+</html>

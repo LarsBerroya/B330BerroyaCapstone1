@@ -1,0 +1,280 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+body{
+    font-family: 'Playpen Sans', sans-serif;
+    background-color: rgb(253,253,253);
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+/* Transition */
+a, .btn{
+    transition: all 300ms ease;
+}
+
+#landing{
+    display: flex;
+    justify-content: center;
+    margin-top: 20vh;
+    padding-top: 15vh;
+    gap: 5rem
+}
+
+.landingPicContainer{
+    display: flex;
+    height: 400px;
+    width: 400px;
+    margin: auto 0;
+}
+
+.dp{
+    border-radius: 200px;
+}
+
+.landingText{
+    align-self: center;
+    text-align: center;
+}
+.landingText p{
+    font-weight: 600;
+}
+
+.p1{
+    text-align: center;
+}
+
+.p2{
+    font-size: 1.75rem;
+    margin-bottom: 1rem;
+}
+
+.title{
+    font-size: 3rem;
+    text-align: center;
+}
+
+#socialContainer{
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+    gap: 1rem;
+}
+
+/* Icon */
+.iconInstagram, .iconGithub{
+    cursor: pointer;
+    height: 2rem;
+}
+
+
+
+/* Landing Buttons */
+
+.landingBtn{
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+
+}
+
+.landingBtn button{
+    font-weight: 600;
+    transition: all 300ms ease;
+    padding: 0.4rem;
+    width: 8.5rem;
+    border-radius: 2rem;
+}
+
+.btn1, .btn2{
+    border: rgb(53,53,53) 0.1rem solid;
+    background: none;
+}
+
+
+.btn1:hover, .btn2:hover{
+    cursor:pointer;
+    background: rgb(53,53,53);
+    color: white;
+    border: rgb(255,255,255) 0.1rem solid;
+}
+
+/* Project */
+
+#project{
+    position: relative;
+    margin: 40vh 10vw;
+    padding: 10vh 0;
+}
+
+.projectDetailsContainer{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+} 
+
+.projectContainer{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    gap: 2rem;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+}
+
+.detailsContainer{
+    padding: 1.5rem;
+    flex: 1;
+    background: white;
+    border-radius: 2rem;
+    border: rgb(53,53,53) 0.1rem solid;
+    border-color: rgb(163.163,163) ;
+    text-align: center;
+}
+
+.colorContainer{
+    border-color: rgb(163,163,163);
+    background: rgb(255,255,255);
+}
+
+.projectImg{
+    border-radius: 2rem;
+    width: 90%;
+    height: 90%;
+
+}
+
+.projectTitle{
+    margin: 1rem;
+    color: black;
+}
+
+.projectBtn{
+    color: black;
+    border-color: rgb(163,163,163);
+    font-weight: 600;
+    transition: all 300ms ease;
+    padding: 0.4rem;
+    width: 8.5rem;
+    border-radius: 2rem;
+}
+
+/* Tools */
+#tools{
+    position: relative;
+    margin: 10vh 10vw 50vh 10vw;
+    padding-top: 10vh;
+    gap: 30px;
+}
+.articleContainer{
+    display: flex;
+    text-align: initial;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 2.5rem;
+    justify-content: center;
+}
+
+.SubTitle{
+    margin-bottom: 5vh;
+}
+
+article{
+    display: flex;
+    width: 10rem;
+    gap: 0.5rem;
+    /* justify-content: center; */
+}
+
+article .icon{
+    cursor: default;
+    width: 25px;
+    height: 25px;
+}
+
+/* Contacts */
+.contactInfoUpper{
+    display: flex;
+    justify-content: center;
+    border-radius: 2rem;
+    /* border: rgb(53,53,53) 0.1rem solid; */
+    border-color: rgb(163,163,163);
+    background: rgb(255,255,255);
+    margin: 2rem 30vw;
+    padding: 0.5rem;
+}
+
+.contactInfoUpper a{
+    color: black;
+    text-decoration: none;
+}
+
+
+.contactInfoContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    margin: 1rem;
+}
+
+.contactInfoContainer{
+    font-size: larger;
+}
+
+
+.contacticon{
+    cursor: default;
+}
+
+.contactIcon{
+    width: 25px;
+    height: 25px;
+}
+
+.contactForm{
+    display: flex;
+    flex-direction: column;
+    margin: 0 30vw;
+    
+}
+
+.contactForm textarea, input{
+    margin: 10px 0;
+    padding: 5px;
+    border: solid 1px gray;
+    border-radius: 10px;
+}
+
+.submitBtn{
+    font-weight: 600;
+    transition: all 300ms ease;
+    padding: 0.4rem;
+    width: 8.5rem;
+    border-radius: 2rem;
+    border: rgb(53,53,53) 0.1rem solid;
+    background: none;
+    width: 100%;
+}
+
+/* .submitBtn:hover{
+    background-color: 1s;
+} */
+
+
+
+/* Footer */
+footer{
+    height: 26vh;
+    margin: 0 1rem;
+}
+
+footer p{
+    text-align: center;
+}
